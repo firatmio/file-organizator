@@ -25,7 +25,7 @@ class GUI(CTk):
     
     def __init__(self):
         super().__init__()
-        self.title(f"File Organizer - {self.gecerli_app_sloganı}")
+        self.title(f"File Organizator - {self.gecerli_app_sloganı}")
         self.minsize(1350,750)
         self.maxsize(1350,750)
         self.resizable(False, False)
@@ -81,7 +81,7 @@ class GUI(CTk):
             self.welcomeMessageFrame = CTkFrame(self.appcontent, bg_color=THEME.PRIMARY_COLOR, fg_color=THEME.PRIMARY_COLOR)
             self.welcomeMessageFrame.pack(expand=True, fill=BOTH, padx=20, pady=20)
             
-            self.welcomePageHeader = CTkLabel(self.welcomeMessageFrame, text="File Organizer", font=("Arial", 72, "bold"), text_color=THEME.PRIMARY_COLOR_EXTRA_LIGHT)
+            self.welcomePageHeader = CTkLabel(self.welcomeMessageFrame, text="File Organizator", font=("Arial", 72, "bold"), text_color=THEME.PRIMARY_COLOR_EXTRA_LIGHT)
             self.welcomePageHeader.pack(side=TOP, pady=(144, 0))
             
             self.welcomePageText = CTkLabel(self.welcomeMessageFrame,
