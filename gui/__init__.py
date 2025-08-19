@@ -5,7 +5,7 @@ from tkinter import filedialog as fd
 from tkinter import font as font
 import os, datetime, time, sys, threading, webbrowser, random, subprocess
 from PIL import Image, ImageTk
-from utils.organizer import organization
+from utils.organizator import organization
 
 class THEME:
     PRIMARY_COLOR = "#202020"
