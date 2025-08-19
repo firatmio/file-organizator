@@ -1,8 +1,14 @@
 <div align="center">
 
+
 # 📂 File Organizator
 
+
 **Smart & Modern File Organizer with Python GUI**
+
+<p align="center">
+  <img src="github/logo.png" alt="File Organizator Screenshot" width="200">
+</p>
 
 *Select a folder, organize your files, and boost your productivity in seconds.*
 

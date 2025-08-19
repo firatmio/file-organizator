@@ -29,6 +29,7 @@ class GUI(CTk):
         self.minsize(1350,750)
         self.maxsize(1350,750)
         self.resizable(False, False)
+        self.iconbitmap("./assets/icon.ico")
         self.config(bg=THEME.PRIMARY_COLOR)
         
         self.create_widgets()
@@ -186,7 +187,7 @@ class GUI(CTk):
                 files = []
 
             if not files:
-                empty_lbl = CTkLabel(rows_container, text="Bu klasörde dosya bulunamadı.", font=("Arial", 14), text_color=THEME.TEXT_COLOR_RESERVE[1], bg_color=THEME.PRIMARY_COLOR)
+                empty_lbl = CTkLabel(rows_container, text="Bu klasörde dosya bulunamadı.", font=("Arial", 14), text_color=THEME.TEXT_COLOR, bg_color=THEME.PRIMARY_COLOR)
                 empty_lbl.pack(pady=20)
             else:
                 files.sort(key=lambda x: x[0].lower())
